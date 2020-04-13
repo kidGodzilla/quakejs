@@ -6,6 +6,9 @@
     "quakejs-master": "bin/master.js",
     "quakejs-repak": "bin/repak.js"
   },
+  "scripts": {
+    "start": "node bin/web.js --config ./web.json"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/inolen/quakejs.git"
