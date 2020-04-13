@@ -7,7 +7,7 @@
     "quakejs-repak": "bin/repak.js"
   },
   "scripts": {
-    "start": "node bin/web.js --config ./web.json"
+    "start": "node bin/web.js --config ./web.json & node build/ioq3ded.js +set fs_game baseq3 +set dedicated 2 +exec q3config_server.cfg"
   },
   "repository": {
     "type": "git",
